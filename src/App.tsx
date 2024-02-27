@@ -9,9 +9,9 @@ const App = () => {
         <Header />
       </div>
       <div className="navigation-bar">
-        <NavigationBar/>
+        <NavigationBar />
       </div>
-        <SliderComponent/>
+      <SliderComponent />
     </div>
   );
 };

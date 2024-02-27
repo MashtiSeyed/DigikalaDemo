@@ -51,7 +51,7 @@ const SearchComponent = () => {
           style={{width: '35rem'}}
             type="text"
             className="bg-[#0d1829] flex bg-transparent pl-2 text-[#cccccc] outline-0"
-            placeholder="Search name movie or select options"
+            placeholder="Search Here..."
           />
           <button
             type="submit"

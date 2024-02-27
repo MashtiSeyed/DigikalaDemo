@@ -19,11 +19,11 @@ const NavigationBar = () => {
         <ul className="list-none">
           <div className="flex justify-between">
             <div className={`flex gap-10`}>
-            <a><DropDownComponent/></a>
+            <a className="text-gray-100 transition delay-90 hover:text-orange-800 text-gray-100"><DropDownComponent/></a>
               {navigationBarList.map((item) => (
                 <a
                   href="#"
-                  className="transition delay-90 hover:text-orange-800"
+                  className="transition delay-90 hover:text-orange-800 text-gray-100"
                 >
                   <li key={item.id}>
                     {item.icon}
@@ -34,7 +34,7 @@ const NavigationBar = () => {
             </div>
             <div>
               <a href="#" className="transition delay-90 hover:text-orange-800">
-                <li>
+                <li className="text-gray-100 transition delay-90 hover:text-orange-800 text-gray-100">
                   <FmdGoodOutlinedIcon />
                   <span className="align-middle">Choose Your City</span>
                 </li>

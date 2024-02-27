@@ -10,7 +10,7 @@ const Header = () => {
         <SearchComponent />
       </div>
       <div className="flex items-center gap-3">
-        <BuyBtnComponent/>
+        <span className="text-gray-100"><BuyBtnComponent/></span>
         <span>|</span>
         <button><span className="text-lg"><ShoppingCartOutlinedIcon fontSize="large"/></span></button>
       </div>
