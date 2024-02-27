@@ -24,6 +24,7 @@ const NavigationBar = () => {
                 <a
                   href="#"
                   className="transition delay-90 hover:text-orange-800 text-gray-100"
+                  key={item.id}
                 >
                   <li key={item.id}>
                     {item.icon}
