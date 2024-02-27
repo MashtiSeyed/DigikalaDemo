@@ -16,9 +16,9 @@ const App = () => {
         <div className="slider-1">
           <SliderComponent />
         </div>
-        <div className="slider-image">
-          <BannerSlider />
-        </div>
+      </div>
+      <div className="slider-image">
+        <BannerSlider />
       </div>
     </>
   );
