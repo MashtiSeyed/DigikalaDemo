@@ -2,17 +2,25 @@ import Header from "./components/Header";
 import "./App.css";
 import NavigationBar from "./components/NavigationBar";
 import SliderComponent from "./components/SliderComponent";
+import BannerSlider from "./components/BannerSlider";
 const App = () => {
   return (
-    <div className="container mx-auto">
-      <div className="header">
-        <Header />
+    <>
+      <div className="container mx-auto">
+        <div className="header pt-4">
+          <Header />
+        </div>
+        <div className="navigation-bar">
+          <NavigationBar />
+        </div>
+        <div className="slider-1">
+          <SliderComponent />
+        </div>
+        <div className="slider-image">
+          <BannerSlider />
+        </div>
       </div>
-      <div className="navigation-bar">
-        <NavigationBar />
-      </div>
-      <SliderComponent />
-    </div>
+    </>
   );
 };
 

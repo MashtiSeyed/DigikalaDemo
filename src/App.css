@@ -1,12 +1,7 @@
 body {
-    padding: 15px;
     background-color: #0E2954;
 }
 
 .slick-slide {
     width: 100px !important;
-}
-
-.slick-track {
-    transform: translate3d(-704px, 0px, 0px) !important;
 }
