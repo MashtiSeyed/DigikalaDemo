@@ -24,25 +24,29 @@ const SliderComponent = () => {
         className="swiper_container"
       >
         {states.map((state, index) => (
-          <>
-            <SwiperSlide key={index}>
-              <div className="flex w-[500px]">
-                <div
-                  style={{
-                    backgroundImage: `url(${state.img})`,
-                    objectFit: "contain",
-                  }}
-                  className="w-[84px] h-[84px] bg-cover bg-center rounded-full"
-                />
-              </div>
-            </SwiperSlide>
-          </>
+          <SwiperSlide key={index}>
+            <div>
+              <div
+                style={{
+                  backgroundImage: `url(${state.img})`,
+                  objectFit: "contain",
+                }}
+                className="w-[84px] h-[84px] bg-cover bg-center rounded-full"
+              />
+            </div>
+          </SwiperSlide>
         ))}
         <div className="swiper-container flex justify-between ">
-          <button className="slider1 bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold rounded-full inline-flex items-center mt-2 p-1.5" onClick={() => swiper.slideNext()}>
+          <button
+            className="slider1 bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold rounded-full inline-flex items-center mt-2 p-1.5"
+            onClick={() => swiper.slideNext()}
+          >
             <ArrowBackIcon />
           </button>
-          <button className="slider2 bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold rounded-full inline-flex items-center mt-2 p-1.5" onClick={() => swiper.slidePrev()}>
+          <button
+            className="slider2 bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold rounded-full inline-flex items-center mt-2 p-1.5"
+            onClick={() => swiper.slidePrev()}
+          >
             <ArrowForwardIcon />
           </button>
         </div>
