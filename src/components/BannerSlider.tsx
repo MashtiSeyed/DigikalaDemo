@@ -25,10 +25,10 @@ const BannerSlider = () => {
     >
       {images.map((image, index) => (
         <SwiperSlide key={index}>
-          <img src={image.img} alt={image.alt} />
+          <img src={image.img} alt={image.alt} className="relative"/>
         </SwiperSlide>
       ))}
-      <div className="swiper-container flex justify-between ">
+      <div className="swiper-container inline-flex relative -top-16 left-4 z-50 gap-2.5">
         <button
           className="slider1 bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold rounded-full inline-flex items-center mt-2 p-1.5"
           onClick={() => swiper.slidePrev()}
