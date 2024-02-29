@@ -5,10 +5,10 @@ import { useSwiper } from "swiper/react";
 import ArrowBackIcon from "@mui/icons-material/ArrowBack";
 import ArrowForwardIcon from "@mui/icons-material/ArrowForward";
 import images from "../data/SliderImage";
-
+import { useState } from "react";
 const BannerSlider = () => {
   const swiper = useSwiper();
-
+  const [isVisible, setIsVisible] = useState(true);
   return (
     <Swiper
       spaceBetween={1}
@@ -24,11 +24,21 @@ const BannerSlider = () => {
       className="swiper_container"
     >
       {images.map((image, index) => (
-        <SwiperSlide key={index}>
-          <img src={image.img} alt={image.alt} className="relative"/>
+        <SwiperSlide
+          key={index}
+          onMouseOut={() => setIsVisible(true)}
+          onMouseOver={() => setIsVisible(false)}
+        >
+          <img src={image.img} alt={image.alt} className="relative" />
         </SwiperSlide>
       ))}
-      <div className="swiper-container inline-flex relative -top-16 left-4 z-50 gap-2.5">
+      <div
+        className={`swiper-container inline-flex relative -top-16 left-4 z-50 gap-2.5 transition duration-100${
+          isVisible && "invisible opacity-0"
+        }`}
+        onMouseOut={() => setIsVisible(true)}
+        onMouseOver={() => setIsVisible(false)}
+      >
         <button
           className="slider1 bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold rounded-full inline-flex items-center mt-2 p-1.5"
           onClick={() => swiper.slidePrev()}
