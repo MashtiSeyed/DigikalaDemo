@@ -13,3 +13,5 @@ const ProductImages = [
         img: 'https://dkstatics-public.digikala.com/digikala-adservice-banners/030b369a27c6b7cf4fb563b919a72806f32541d9_1708777098.jpg?x-oss-process=image/quality,q_95/format,webp'
     }
 ]
+
+export default ProductImages

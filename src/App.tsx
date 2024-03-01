@@ -6,6 +6,7 @@ import BannerSlider from "./components/BannerSlider";
 import Offers from "./components/Offers";
 import ProductSliderImages from "./components/ProductSliderImages";
 import SuperMarketBanner from "./components/SuperMarketBanner";
+import MiddleImagesComponent from "./components/MiddleImagesComponent";
 const App = () => {
   return (
     <>
@@ -22,13 +23,16 @@ const App = () => {
         <BannerSlider />
       </div>
       <div className="offers container mx-auto">
-        <Offers/>
+        <Offers />
       </div>
       <div className="product-slider container mx-auto">
-        <ProductSliderImages/>
+        <ProductSliderImages />
       </div>
       <div className="super-market-banner container mx-auto">
-        <SuperMarketBanner/>
+        <SuperMarketBanner />
+      </div>
+      <div className="four-images-of-product container mx-auto">
+        <MiddleImagesComponent/>
       </div>
     </>
   );
