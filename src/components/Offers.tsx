@@ -13,7 +13,7 @@ const Offers = () => {
           </a>
         ))}
         <a href="#">
-            <div className="rounded-full w-[54px] h-[54px] flex justify-center items-center bg-gray-100"><MoreHorizIcon/></div>
+            <div className="rounded-full w-[54px] h-[54px] flex justify-center items-center bg-gray-200"><MoreHorizIcon/></div>
         </a>
       </div>
     </div>

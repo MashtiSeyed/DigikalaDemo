@@ -1,19 +1,34 @@
-import Logo from '../assets/fresh.webp'
-import Typeo from '../assets/fresh.svg'
+import Logo from "../assets/fresh.webp";
+import Typeo from "../assets/fresh.svg";
+import SuperMarketData from "./SuperMarketData";
 const SuperMarketBanner = () => {
   return (
-    <div className='flex justify-between items-center w-5/6 mx-auto bg-gray-300 py-4 rounded-2xl'
-      style={{backgroundImage: `url(https://www.digikala.com/statics/img/svg/typography/freshPattern.svg)`}}
+    <div
+      className="py-5 rounded-2xl w-5/6 mx-auto"
+      style={{
+        backgroundImage: `url(https://www.digikala.com/statics/img/svg/typography/freshPattern.svg)`,
+        backgroundRepeat: 'no-repeat',
+        backgroundColor: 'rgb(240,240,240)'
+      }}
     >
-      <div className='flex justify-evenly items-center gap-4'>
-        <img src={Logo} alt="" />
-        <img src={Typeo} alt="" />
-        <div className='flex justify-center items-center bg-green-500 rounded-3xl'>
-            <p className='text-white px-[10px] py-[2px]'>Offer to 35%</p>
+      <div className="flex justify-around">
+        <div className="flex items-center gap-4">
+          <div>
+            <img src={Logo} alt="" />
+          </div>
+          <div>
+            <img src={Typeo} alt="" />
+          </div>
+          <div className="bg-green-500 rounded-full">
+            <p className="text-white px-[10px] py-[2px]">Offer to 35%</p>
+          </div>
+        </div>
+        <div>
+          <SuperMarketData/>
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
 export default SuperMarketBanner;
