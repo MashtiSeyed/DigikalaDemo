@@ -5,6 +5,7 @@ import SliderComponent from "./components/SliderComponent";
 import BannerSlider from "./components/BannerSlider";
 import Offers from "./components/Offers";
 import ProductSliderImages from "./components/ProductSliderImages";
+import SuperMarketBanner from "./components/SuperMarketBanner";
 const App = () => {
   return (
     <>
@@ -25,6 +26,9 @@ const App = () => {
       </div>
       <div className="product-slider container mx-auto">
         <ProductSliderImages/>
+      </div>
+      <div className="super-market-banner container mx-auto">
+        <SuperMarketBanner/>
       </div>
     </>
   );
