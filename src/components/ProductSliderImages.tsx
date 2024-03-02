@@ -9,7 +9,7 @@ import Card from "./Card";
 const ProductSliderImages = () => {
   const swiper = useSwiper();
   return (
-    <div className="w-5/6 m-auto mt-12 mb-12 pl-1 py-4 bg-red-600 pr-4 rounded-2xl relative">
+    <div className="w-10/11 m-auto mt-12 mb-12 pl-1 py-4 bg-red-600 pr-4 rounded-2xl relative">
       <Swiper
         spaceBetween={30}
         slidesPerView={7}

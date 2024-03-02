@@ -3,12 +3,11 @@ interface Props {
 }
 
 const MiddleImagesCard = ({ img }: Props) => {
-  const styles = {
-    backgroundImage: `url(${img})`,
-    backgroundSize: "cover",
-    backgroundRepeat: "no-repeat",
-  };
-  return <div className="w-[400px] h-[290px] rounded-2xl" style={styles}></div>;
+  return (
+    <div className="">
+      <img src={img} className="w-100 h-auto rounded-2xl" />
+    </div>
+  );
 };
 
 export default MiddleImagesCard;

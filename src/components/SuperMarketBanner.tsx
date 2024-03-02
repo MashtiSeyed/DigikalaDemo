@@ -4,7 +4,7 @@ import SuperMarketData from "./SuperMarketData";
 const SuperMarketBanner = () => {
   return (
     <div
-      className="py-5 rounded-2xl w-5/6 mx-auto"
+      className="py-5 rounded-2xl w-10/11 mx-auto"
       style={{
         backgroundImage: `url(https://www.digikala.com/statics/img/svg/typography/freshPattern.svg)`,
         backgroundRepeat: 'no-repeat',
