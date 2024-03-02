@@ -5,11 +5,11 @@ const Products = [
     },
     {
         img: 'https://dkstatics-public.digikala.com/digikala-categories/ba175c709e3cc22e3fd7c65c7c6a21854d1c3765_1709022399.png',
-        caption: 'Electronic Product'
+        caption: 'Digital goods'
     },
     {
         img: 'https://dkstatics-public.digikala.com/digikala-categories/3e3ec550569f974bc7e9d78c30b48612e5b1c606_1709022406.png',
-        caption: 'House Work'
+        caption: 'House work'
     },
     {
         img: 'https://dkstatics-public.digikala.com/digikala-categories/1fad42c6177e71db1a368e258c5bc004d6073a3a_1709022413.png',
@@ -17,7 +17,7 @@ const Products = [
     },
     {
         img: 'https://dkstatics-public.digikala.com/digikala-categories/5f3aa7bb8bde7c7433d31025d508ee3afd367773_1709022418.png',
-        caption: 'SuperMarket'
+        caption: 'Supermarket'
     },
     {
         img: 'https://dkstatics-public.digikala.com/digikala-categories/f1ff29c0399fdbeef7cef44bf6ec897f31287449_1709022424.png',
@@ -29,7 +29,7 @@ const Products = [
     },
     {
         img: 'https://dkstatics-public.digikala.com/digikala-categories/0904ded09b1b4874e30fb92aeb5fd8fb21051eb6_1709026476.png',
-        caption: 'Electronic Furniture'
+        caption: 'Appliances'
     },
     {
         img: 'https://dkstatics-public.digikala.com/digikala-categories/c2957abd1f437415eceb6428c7dce93ef3ee7495_1709022473.png',
@@ -56,3 +56,6 @@ const Products = [
         caption: 'Giftcard'
     },
 ]
+
+
+export default Products;

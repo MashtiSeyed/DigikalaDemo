@@ -11,7 +11,7 @@ const ProductSliderImages = () => {
   return (
     <div className="w-10/11 m-auto mt-12 mb-12 pl-1 py-4 bg-red-600 pr-4 rounded-2xl relative">
       <Swiper
-        spaceBetween={30}
+        spaceBetween={-200}
         slidesPerView={7}
         scrollbar={{ draggable: true }}
         navigation={{
