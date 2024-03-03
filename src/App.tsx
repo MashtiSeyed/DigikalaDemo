@@ -9,6 +9,7 @@ import SuperMarketBanner from "./components/SuperMarketBanner";
 import MiddleImagesComponent from "./components/MiddleImagesComponent";
 import CategorizedProductsComponent from "./components/CategorizedProductsComponent";
 import MainImages from "./components/MainImages";
+import SwiperImagesInTheMiddleComponent from "./components/SwiperImagesInTheMiddleComponent";
 const App = () => {
   return (
     <>
@@ -34,13 +35,16 @@ const App = () => {
         <SuperMarketBanner />
       </div>
       <div className="four-images-of-product container mx-auto">
-        <MiddleImagesComponent/>
+        <MiddleImagesComponent />
       </div>
       <div className="categorized-products container mx-auto">
-        <CategorizedProductsComponent/>
+        <CategorizedProductsComponent />
       </div>
       <div className="2-products container mx-auto">
-        <MainImages/>
+        <MainImages />
+      </div>
+      <div className="main-swiper mx-auto container">
+        <SwiperImagesInTheMiddleComponent />
       </div>
     </>
   );

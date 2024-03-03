@@ -1,7 +1,7 @@
 import MainImage from "../data/MainImagesAt2";
 const MainImages = () => {
   return (
-    <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 mt-10">
+    <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 mt-10 w-11/12 mx-auto">
       {MainImage.map((image) => (
         <a href="#" key={image.id}>
           <div className="w-[100%] h-[100%]">
