@@ -8,6 +8,7 @@ import ProductSliderImages from "./components/ProductSliderImages";
 import SuperMarketBanner from "./components/SuperMarketBanner";
 import MiddleImagesComponent from "./components/MiddleImagesComponent";
 import CategorizedProductsComponent from "./components/CategorizedProductsComponent";
+import MainImages from "./components/MainImages";
 const App = () => {
   return (
     <>
@@ -37,6 +38,9 @@ const App = () => {
       </div>
       <div className="categorized-products container mx-auto">
         <CategorizedProductsComponent/>
+      </div>
+      <div className="2-products container mx-auto">
+        <MainImages/>
       </div>
     </>
   );
