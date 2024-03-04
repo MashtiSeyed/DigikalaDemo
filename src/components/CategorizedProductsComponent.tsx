@@ -4,7 +4,7 @@ const CategorizedProductsComponent = () => {
   return (
 
     <>
-      <h1 className="text-2xl text-center mt-8">Buy based on categorize</h1>
+      <h1 className="text-2xl text-center mt-8">خرید بر اساس دسته بندی</h1>
       <div className="grid grid-cols-7">
         {Products.map((product) => (
           <CategorizedProductsImages

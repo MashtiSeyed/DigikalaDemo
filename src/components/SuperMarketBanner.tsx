@@ -20,7 +20,7 @@ const SuperMarketBanner = () => {
             <img src={Typeo} alt="" />
           </div>
           <div className="bg-green-500 rounded-full">
-            <p className="text-white px-[10px] py-[2px]">Offer to 35%</p>
+            <p className="text-white px-[10px] py-[2px]">تخفیف تا %35</p>
           </div>
         </div>
         <div>

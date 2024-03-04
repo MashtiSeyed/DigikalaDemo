@@ -14,7 +14,7 @@ const SuperMarketData = () => {
         </div>
         <a href="#">
           <div className="inline-block bg-white py-3.5 px-4 rounded-full">
-            <span className="text-green-500">Lorem Ipsum</span>
+            <span className="text-green-500">بیش از صد کالا</span>
             <ArrowForwardIcon className="text-green-500" />
           </div>
         </a>

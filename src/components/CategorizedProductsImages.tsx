@@ -13,7 +13,7 @@ const CategorizedProductsImages = ({image, caption, alt}:Props) => {
               <img src={image} alt={alt} />
           </div>
           <div className=" text-center">
-              <span className="font-mono">{caption}</span>
+              <p>{caption}</p>
           </div>
       </div>
     </a>
