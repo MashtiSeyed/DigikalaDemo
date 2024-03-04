@@ -22,12 +22,15 @@ const SwiperImagesInTheMiddleComponent = () => {
         >
           {SwiperItemsInTheMiddle.map((swiperimage) => (
             <SwiperSlide key={swiperimage.id}>
-              <div className="bg-gray-100 border-l border-r border-gray-200 p-8">
-                <div className="flex justify-center items-center bg-gray-200 rounded-full">
+              <div className="bg-gray-100 border-l border-r border-gray-200 p-4 h-[50vh]">
+                <div className="flex flex-col items-center bg-gray-200 rounded-full p-10">
                   <img
                     src={swiperimage.img}
-                    className="mix-blend-multiply rounded-2xl scale-75"
+                    className="mix-blend-multiply rounded-2xl"
                   />
+                </div>
+                <div className="text-center mt-4">
+                  <span>{swiperimage.title}</span>
                 </div>
               </div>
             </SwiperSlide>
